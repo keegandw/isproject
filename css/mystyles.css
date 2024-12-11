@@ -1,0 +1,99 @@
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 30%;
+    vertical-align: middle;
+
+}
+.flag{
+    width: 60%;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 125px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+h5{
+    font-family: cursive;
+    color: darkred;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+h4{
+    font-family: cursive;
+    color: darkred;
+    text-align: right;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.yellowstrip{
+    margin-top: 5px;
+    background-color: gold;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.yellowstrip a {
+    font-size: 24px;
+    color: darkred;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yellowstrip a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.navtext{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.listcontainer{
+    flex: 1;
+    max-width: 45%;
+}
+.videocontainer{
+    flex: 1;
+    max-width: 50%;
+}
+.iframe{
+    width: 100%;
+    height: auto;
+}
+.commonbottom{
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    color: white;
+}
+body{
+    background-color: rgb(255, 227, 227);
+}
+h3{
+    color: green;
+    font-family: cursive;
+}
+.greenbg{
+    background-color: green;
+}
+.bg-gradient-primary-to-secondary2 {
+    background: #158900;
+    background: linear-gradient(135deg, #158900 20%, #016a74 100%);
+  }
